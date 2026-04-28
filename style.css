@@ -1,0 +1,42 @@
+.Background{
+    background-color: black;
+}
+.Text{
+    color: white;
+    text-align: center;
+}
+.Text2{
+    width: 220px;
+    height: 40px;
+    border-radius:30px ;
+    border: 2px solid white;
+    text-align: right;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    justify-items: right;
+}
+.main{
+    color: white;
+    font-size: 30px;
+    /* margin-right: 70px; */
+    padding-left: 250px;
+    padding-right: 270px;
+}
+.Text3{
+    width: 250px;
+    height: 70px;
+    border-radius: 40px;
+    border: 1px solid white;
+    color: white;
+}
+.tcol{
+    color: yellow;
+}
+.pg3{
+    margin-top: -20px;
+}
+.main2{
+    background-color: burlywood;
+}
+
