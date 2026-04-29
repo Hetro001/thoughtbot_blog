@@ -1,20 +1,18 @@
 .Background{
-    background-color: black;
+    background-color: #201313;
+    color: white;
 }
 .Text{
     color: white;
     text-align: center;
 }
 .Text2{
-    width: 220px;
-    height: 40px;
+    width: 300px;
+    height: 400px;
     border-radius:30px ;
     border: 2px solid white;
-    text-align: right;
     color: white;
-    text-align: center;
-    padding-top: 20px;
-    justify-items: right;
+    /* justify-items: right; */
 }
 .main{
     color: white;
