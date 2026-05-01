@@ -2,6 +2,41 @@
     background-color: #201313;
     color: white;
 }
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    height: 70px;
+    background-color: #201313;
+}
+
+/* Center links */
+.nav-center {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-center a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Highlight Blog */
+.nav-center .active {
+    color: orange;
+}
+
+/* Button */
+.navbutton {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
 .Text{
     color: white;
     text-align: center;
@@ -20,21 +55,108 @@
     /* margin-right: 70px; */
     padding-left: 250px;
     padding-right: 270px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: -10px;
 }
 .Text3{
-    width: 250px;
+    width: 50%;
     height: 70px;
-    border-radius: 40px;
+    border-radius: 10px;
     border: 1px solid white;
     color: white;
+    text-align: center;
 }
 .tcol{
     color: yellow;
 }
+.pg1{
+    font-size: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
 .pg3{
     margin-top: -20px;
 }
-.main2{
-    background-color: burlywood;
+.newsletter {
+    background-color: #2f1c1c;
+    padding: 90px 80px;
+    border-radius: 8px;
+    width: 90%;
+    height: 70%;
+
+    /* margin: 80px auto; */
+    color: white;
+    /* margin-left: 50px; */
+
 }
 
+/* Heading */
+.newsletter h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+/* Form row */
+.form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Input section */
+.input-area {
+    flex: 1;
+}
+
+.input-area label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.input-area input {
+    width: 90%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 10px 0;
+    color: white;
+}
+
+/* Button */
+.subscribe-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.foot1{
+    display:flex;
+    justify-content: space-between;
+    padding: 20px;
+    /* align-items: center; */
+}
+.right{
+    display:flex;
+    gap: 120px;
+    padding-right: 90px;
+    text-decoration: dotted;
+}
+
+
+.left{
+     margin-top: -25px;
+}
+.right1{
+    gap: 120px;
+    padding-right: 200px; 
+}
+.foot2{
+    display:flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: #C1BAB7;
+}
